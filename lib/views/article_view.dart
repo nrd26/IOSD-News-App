@@ -18,7 +18,7 @@ class _ArticleViewState extends State<ArticleView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      // backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -26,16 +26,16 @@ class _ArticleViewState extends State<ArticleView> {
             Text(
               "IO",
               style:
-              TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+              TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
             ),
             Text(
               "SD ",
               style:
-              TextStyle(color: Colors.indigo[900], fontWeight: FontWeight.w600),
+              TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
             ),
             Text(
               "News",
-              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
+              style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
             )
           ],
         ),

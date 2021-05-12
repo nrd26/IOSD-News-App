@@ -10,10 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'IOSD_News_App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Colors.white,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      theme: ThemeData.dark(),
       home: HomePage(),
     );
   }

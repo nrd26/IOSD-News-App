@@ -9,20 +9,20 @@ Widget MyAppBar(){
             Text(
               "IO",
               style:
-              TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+              TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
             ),
             Text(
               "SD ",
               style:
-              TextStyle(color: Colors.blue[900], fontWeight: FontWeight.w600),
+              TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
             ),
             Text(
               "News",
-              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
+              style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
             )
           ],
         ),
-        backgroundColor: Colors.grey[300],
+        // backgroundColor: Colors.grey[300],
         elevation: 0.0,
       );
 }
@@ -70,9 +70,10 @@ class NewsTile extends StatelessWidget {
                     title,
                     maxLines: 2,
                     style: TextStyle(
-                        color: Colors.black,
+                        color: Colors.white,
                         fontSize: 20,
-                        fontWeight: FontWeight.w500),
+                        // fontWeight: FontWeight.w500
+                    ),
                   ),
                   SizedBox(
                     height: 4,
