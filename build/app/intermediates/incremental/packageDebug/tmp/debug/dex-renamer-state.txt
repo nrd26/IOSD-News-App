@@ -1,0 +1,4 @@
+#Thu Jun 10 19:16:57 IST 2021
+base.0=D\:\\app_dev\\IOSD-News-App\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
